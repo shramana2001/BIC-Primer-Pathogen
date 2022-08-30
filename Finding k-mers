@@ -1,0 +1,7 @@
+i=int(input("kmer"))
+genome = str(input("genome:"))
+list=[]
+for j in range(len(genome)-i+1)
+    a = genome[j:j+i]
+    list.append(a)
+print(list)
